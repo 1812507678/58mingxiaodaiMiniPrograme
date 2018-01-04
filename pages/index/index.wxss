@@ -1,0 +1,17 @@
+/* pages/form/form.wxss */
+.section{
+  margin: 10px;
+  
+}
+.section__title{
+  color: #05BDA7;
+}
+.inputstyle{
+  border: 1px solid lightgray;
+  border-radius: 5px;
+  margin-top: 5px;
+}
+.buttonsyle{
+  border-radius: 5px;
+  margin: 10px;
+}

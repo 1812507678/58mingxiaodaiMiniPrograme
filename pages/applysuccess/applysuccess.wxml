@@ -1,0 +1,6 @@
+<!--pages/applysuccess/applysuccess.wxml-->
+<view class='container'>
+<text>申请成功，我们将尽快和你联系</text>
+<text>联系qq:3324403918</text>
+<button bindtap="copyqq">复制qq</button>
+</view>

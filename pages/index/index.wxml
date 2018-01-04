@@ -1,0 +1,42 @@
+<!--pages/form/form.wxml-->
+<form bindsubmit="formSubmit" bindreset="formReset" class='formcss'>
+  <view class="section">
+    <view class="section__title">申请金额（2000~50000） </view>
+    <input name="money" placeholder="" class='inputstyle'/>
+  </view>
+  <view class="section">
+    <view class="section__title">月数（1~36个月） </view>
+    <input name="mouth" placeholder="" class='inputstyle'/>
+  </view>
+  <view class="section">
+    <view class="section__title">姓名 </view>
+    <input name="name" placeholder="" class='inputstyle'/>
+  </view>
+  <view class="section">
+    <view class="section__title">电话号码 </view>
+    <input name="phone" placeholder="" class='inputstyle'/>
+  </view>
+  <view class="section">
+    <view class="section__title">qq </view>
+    <input name="qq" placeholder="" class='inputstyle'/>
+  </view>
+  <view class="section">
+    <view class="section__title">身份证号 </view>
+    <input name="certificate" placeholder="" class='inputstyle'/>
+  </view>
+  <view class="section">
+    <view class="section__title">学信网账号（选填）</view>
+    <input name="account" placeholder="" class='inputstyle'/>
+  </view>
+  <view class="section">
+    <view class="section__title">学信网密码（选填）</view>
+    <input name="password" placeholder="" class='inputstyle'/>
+  </view>
+
+  <view class="btn-area">
+    <button formType="submit" class='buttonsyle' >提交</button>
+  </view>
+
+
+
+</form>
