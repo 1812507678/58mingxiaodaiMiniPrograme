@@ -4,6 +4,8 @@ Page({
     // text:"这是一个页面"
     loadingHidden: true
   },
+
+  
   
   formSubmit: function (e) {
     console.log('form发生了submit事件');
